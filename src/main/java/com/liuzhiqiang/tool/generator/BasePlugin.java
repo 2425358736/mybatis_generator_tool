@@ -286,8 +286,8 @@ public class BasePlugin extends PluginAdapter {
     public static void classAnnotation(TopLevelClass topLevelClass, String explain) {
         // 生成注释
         topLevelClass.addJavaDocLine("/**");
-        topLevelClass.addJavaDocLine("* 开发公司：青岛海豚数据技术有限公司");
-        topLevelClass.addJavaDocLine("* 版权：青岛海豚数据技术有限公司");
+        topLevelClass.addJavaDocLine("* 开发公司：个人");
+        topLevelClass.addJavaDocLine("* 版权：刘志强");
         topLevelClass.addJavaDocLine("* Class");
         topLevelClass.addJavaDocLine("* " + topLevelClass.getType().getShortName());
         topLevelClass.addJavaDocLine("*");
@@ -307,8 +307,8 @@ public class BasePlugin extends PluginAdapter {
     public static void interfazeAnnotation(Interface interfaze, String explain) {
         // 生成注释
         interfaze.addJavaDocLine("/**");
-        interfaze.addJavaDocLine("* 开发公司：青岛海豚数据技术有限公司");
-        interfaze.addJavaDocLine("* 版权：青岛海豚数据技术有限公司");
+        interfaze.addJavaDocLine("* 开发公司：个人");
+        interfaze.addJavaDocLine("* 版权：刘志强");
         interfaze.addJavaDocLine("* Interface");
         interfaze.addJavaDocLine("* " + interfaze.getType().getShortName());
         interfaze.addJavaDocLine("*");

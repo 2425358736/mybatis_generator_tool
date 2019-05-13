@@ -6,7 +6,7 @@
 
     <groupId>com.liuzhiqiang.tool.generator</groupId>
     <artifactId>mybatis_generator</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
 
 
     <properties>
