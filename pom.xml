@@ -6,7 +6,7 @@
 
     <groupId>com.liuzhiqiang.tool.generator</groupId>
     <artifactId>mybatis_generator</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
 
     <properties>
@@ -15,11 +15,11 @@
 
     <distributionManagement>
         <repository>
-            <id>rdc-releases</id>
+            <id>rdc-releases-liuzhiqiang</id>
             <url>https://repo.rdc.aliyun.com/repository/52287-release-z5pXzl/</url>
         </repository>
         <snapshotRepository>
-            <id>rdc-snapshots</id>
+            <id>rdc-snapshots-liuzhiqiang</id>
             <url>https://repo.rdc.aliyun.com/repository/52287-snapshot-DxXvSf/</url>
         </snapshotRepository>
     </distributionManagement>
