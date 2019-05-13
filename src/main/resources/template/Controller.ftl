@@ -7,7 +7,7 @@ import ${package_service}.${file_name}Service;
 
 /**
  * 开发公司：个人
- * 版权：刘志强 * 版权：青岛海豚数据技术有限公司
+ * 版权：刘志强
  * <p>
  *  ${file_name}Controller
  *
