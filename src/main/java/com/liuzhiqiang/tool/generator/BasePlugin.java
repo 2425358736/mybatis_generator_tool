@@ -1,4 +1,4 @@
-package com.dia.generator.tool;
+package com.liuzhiqiang.tool.generator;
 
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
@@ -12,8 +12,8 @@ import java.io.*;
 import java.util.*;
 
 /**
- * 开发公司：青岛海豚数据技术有限公司
- * 版权：青岛海豚数据技术有限公司
+ * 开发公司：个人
+ * 版权：刘志强
  * <p>
  * BasePlugin
  *

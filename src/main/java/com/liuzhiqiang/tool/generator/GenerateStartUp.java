@@ -1,14 +1,11 @@
-package com.dia.generator.tool;
+package com.liuzhiqiang.tool.generator;
 
-import org.apache.tomcat.util.http.fileupload.FileUtils;
 import org.mybatis.generator.api.MyBatisGenerator;
 import org.mybatis.generator.config.Configuration;
 import org.mybatis.generator.config.xml.ConfigurationParser;
 import org.mybatis.generator.exception.InvalidConfigurationException;
 import org.mybatis.generator.exception.XMLParserException;
 import org.mybatis.generator.internal.DefaultShellCallback;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -19,8 +16,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 开发公司：青岛海豚数据技术有限公司
- * 版权：青岛海豚数据技术有限公司
+ * 开发公司：个人
+ * 版权：刘志强
  * <p>
  * GenerateStartUp
  *

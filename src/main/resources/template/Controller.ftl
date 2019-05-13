@@ -7,8 +7,8 @@ import ${package_service}.${file_name}Service;
 import com.dia.sharedEntity.base.BaseController;
 
 /**
- * 开发公司：青岛海豚数据技术有限公司
- * 版权：青岛海豚数据技术有限公司
+ * 开发公司：个人
+ * 版权：刘志强 * 版权：青岛海豚数据技术有限公司
  * <p>
  *  ${file_name}Controller
  *

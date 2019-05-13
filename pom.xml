@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.dia.generator</groupId>
-    <artifactId>mybatis_generator_tool</artifactId>
-    <version>1.0.6</version>
+    <groupId>com.liuzhiqiang.tool.generator</groupId>
+    <artifactId>mybatis_generator</artifactId>
+    <version>1.0.0</version>
 
 
     <properties>
@@ -16,10 +16,12 @@
     <distributionManagement>
         <repository>
             <id>rdc-releases</id>
-            <name>rdc-releases</name>
-            <url>https://repo.rdc.aliyun.com/repository/49565-release-tho2J7</url>
-            <uniqueVersion>true</uniqueVersion>
+            <url>https://repo.rdc.aliyun.com/repository/52287-release-z5pXzl/</url>
         </repository>
+        <snapshotRepository>
+            <id>rdc-snapshots</id>
+            <url>https://repo.rdc.aliyun.com/repository/52287-snapshot-DxXvSf/</url>
+        </snapshotRepository>
     </distributionManagement>
 
     <dependencies>
