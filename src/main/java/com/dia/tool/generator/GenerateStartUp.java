@@ -1,4 +1,4 @@
-package com.liuzhiqiang.tool.generator;
+package com.dia.tool.generator;
 
 import org.mybatis.generator.api.MyBatisGenerator;
 import org.mybatis.generator.config.Configuration;
@@ -16,8 +16,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 开发公司：个人
- * 版权：刘志强
+ * 开发公司：xx公司
+ * 版权：xx公司
  * <p>
  * GenerateStartUp
  *

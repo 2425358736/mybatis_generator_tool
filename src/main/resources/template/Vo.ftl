@@ -6,12 +6,12 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 /**
- * 开发公司：个人
- * 版权：刘志强
+ * 开发公司：xx公司
+ * 版权：xx公司
  *
  * ${file_name}Vo
  *
- * @author 系统
+ * @author 刘志强
  * @created Create Time:  ${date?string('yyyy-MM-dd hh:mm:ss')}
 */
 @ApiModel(description="扩展信息")

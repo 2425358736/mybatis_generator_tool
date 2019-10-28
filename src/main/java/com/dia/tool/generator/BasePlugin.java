@@ -1,4 +1,4 @@
-package com.liuzhiqiang.tool.generator;
+package com.dia.tool.generator;
 
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
@@ -12,8 +12,8 @@ import java.io.*;
 import java.util.*;
 
 /**
- * 开发公司：个人
- * 版权：刘志强
+ * 开发公司：xx公司
+ * 版权：xx公司
  * <p>
  * BasePlugin
  *
@@ -286,12 +286,12 @@ public class BasePlugin extends PluginAdapter {
     public static void classAnnotation(TopLevelClass topLevelClass, String explain) {
         // 生成注释
         topLevelClass.addJavaDocLine("/**");
-        topLevelClass.addJavaDocLine("* 开发公司：个人");
-        topLevelClass.addJavaDocLine("* 版权：刘志强");
+        topLevelClass.addJavaDocLine("* 开发公司：xx公司");
+        topLevelClass.addJavaDocLine("* 版权：xx公司");
         topLevelClass.addJavaDocLine("* Class");
         topLevelClass.addJavaDocLine("* " + topLevelClass.getType().getShortName());
         topLevelClass.addJavaDocLine("*");
-        topLevelClass.addJavaDocLine("* @author 系统");
+        topLevelClass.addJavaDocLine("* @author 刘志强");
         topLevelClass.addJavaDocLine("* @created Create Time: " + new Date());
         topLevelClass.addJavaDocLine("*/");
         // 生成注释结束
@@ -307,12 +307,12 @@ public class BasePlugin extends PluginAdapter {
     public static void interfazeAnnotation(Interface interfaze, String explain) {
         // 生成注释
         interfaze.addJavaDocLine("/**");
-        interfaze.addJavaDocLine("* 开发公司：个人");
-        interfaze.addJavaDocLine("* 版权：刘志强");
+        interfaze.addJavaDocLine("* 开发公司：xx公司");
+        interfaze.addJavaDocLine("* 版权：xx公司");
         interfaze.addJavaDocLine("* Interface");
         interfaze.addJavaDocLine("* " + interfaze.getType().getShortName());
         interfaze.addJavaDocLine("*");
-        interfaze.addJavaDocLine("* @author 系统");
+        interfaze.addJavaDocLine("* @author 刘志强");
         interfaze.addJavaDocLine("* @created Create Time: " + new Date());
         interfaze.addJavaDocLine("*/");
         // 生成注释结束
